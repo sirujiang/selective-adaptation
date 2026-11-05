@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Experiment artifacts
+results/
+outputs/
+tmp/
+temp/
+*.log
+
+# Datasets and model weights
+datasets/
+your_cache_path/
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+clip/bpe_simple_vocab_16e6.txt.gz
+clip/bpe_simple_vocab_16e6.txt.gz.download
+
+# System files
+.DS_Store
+Thumbs.db
